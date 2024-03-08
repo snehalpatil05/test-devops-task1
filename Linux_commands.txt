@@ -1,0 +1,170 @@
+Linux Commands:
+
+1. pwd command:
+This command is used to know the current path of the current working directory.
+
+2. ls command:
+This command is to list the contents of a directory. It also as different options:
+ls -a >> this will show all the hidden files and folders.
+ls -al >> this will list all the files and directories including hidden files and folders with detailed information like permissions, size of the file and folder, owner.
+
+3. mv comand:
+This command is used to move files or folders from one location to another location. Also used to rename the file or folder.
+mv <source_location_file> <destination_path>
+mv <file_name_to be_changed> <new_name_to_be_given>
+
+4. cp command:
+This command is used to copy files or directory from present directory to a different directory or path.
+cp <file_or_directry_name> <destination_folder_path>
+
+5. cat command:
+This command is used to list the contents of file, as a standard output.
+cat <file_name>
+
+6. cd command:
+this command is used to move from one directory to another directory.
+cd <directory_path_to_get_in>
+
+7. touch command:
+This command is used to create a file.
+touch <file_name>
+
+8. rm command:
+This command is used to delete a file.
+rm <file_name>
+
+9. mkdir command:
+This command is used to create a new directory.
+mkdir <directory_name>
+
+10. rmdir command:
+This command is used to delete a directory.
+rmdir <directory_name>
+
+11. grep command:
+This command is used to search a key word given in set of file or folder.
+grep <key_word> <file_orfolder_name>
+
+12. sudo command:
+This command is used to perform tasks that require administrative or root permissions. this command is being executed as a User.
+sudo <system_level_command_to_be_run_as_a_user>
+
+13. head command:
+This command is used to get the initial or first few lines of file. By default it will list first 10 lines of a file.
+head <file_name>
+
+14. tail command:
+This command is also similar to head command, where tail command lists last 10 lines of a file.
+tail <file_name>
+
+15. w command:
+This command is used to check number of users logged into linux operating system.
+
+16. tar command:
+This command is used to archive the files or folders in current directory.
+tar -cvf <file_or_folder_name>.tar <file_or_folder_to_be_archived>    --- This will archive the file or folder.
+tar -xvf <file_or_folder_name>.tar  ---- this will extract the archived folder or file
+
+17. zip/unzip command:
+This zip command is used to archive file or folder in zip format and unzip to extract the archiived file or folder.
+zip <file_or_folder>.zip <file_or_folder_to_be_archived>   ---- this will compress and archive the file or folder
+unzip <file_or_folder>.zip   --- this will extract the archived folder or file
+
+18. du command:
+This command is used to check the size of file or folder being used.
+du -sh <file_or_folder_name>
+
+19. dh command:
+This command is used to get the system's disk space usage.
+df -h
+
+20. diff command:
+diff command is used to compare the contents of two files line by line.
+diff <file1> <file2>
+
+21. kill command:
+This command is used to terminate the process manually.
+kill -9 <process_id>
+
+22. ps command:
+This comamnd is used to list all the process running in system.
+ps -ef
+ps -aux
+
+23. top command:
+This comamnd will display all the running process and how much CPU, memory each process is being used can be monitored. This command is used as a troubleshooting command in linux.
+top
+
+24. uname command:
+This command will print detailed information about our linux system with machine name, OS, Kernel information.
+uname -a
+uname -r
+
+25. free -g
+This comamnd will show the available memory on the system.
+
+26. cat /proc/meminfo command:
+This command will list the memory details with its usage available, used in KB.
+
+27. cat /proc/cpuinfo command:
+This command will list the information pertaining to cpu.
+
+28. wget command:
+this command is used to download any files or contents from Internet.
+wget <link>
+
+29. hostname command:
+this command will print the hostname of the system.
+
+30. ping command: 
+This command is used to check the connectivity of the network. Also used for troubleshooting in somecases to check the other server is rechable.
+ping google.com
+ping <server_Ip_address>
+
+31. man command:
+This command is used for users to know complete information about any of the linux commands. We have to provide the command name infront of the man command as shown:
+man <command_to_be_known_in_detail>
+
+32. chmod command:
+this command is used to change the read, write, execute permissions of the fies or directory's.
+chmod 777 <file_or_folder_name>
+read - 4
+write 2
+execute - 1
+
+33. chown command: 
+This command is used to change the ownership of files and directorys. 
+chown -R <user_name>:<user_name> <file_or_folder_name>
+
+34. echo command:
+This command is used to print if any environment variable is being set.
+echo $<variable_name>
+
+35. env command:
+This command is used to list all the available environment variables set in system.
+env
+
+36 export comand:
+This command is used to set environment variable with a value in linux operating system.
+export <env_variable_name>=<value>
+
+37. unset command:
+This command is used to remove the environment variable that is being set.
+unset <variable_name>
+
+38. locate command:
+This command is used to locate a file in any of the directory.
+locate <file_name>
+
+39. useradd command:
+This command is used to add a new user to OS
+useradd <user_name>
+
+40. passwd command: 
+This command is used to set a password for any user's that is being created newly or to change the password for user that is being added manually.
+passwd <user_name>
+
+41. userdel comamnd:
+This command is used to delete a user from the OS.
+userdel <user_name>
+

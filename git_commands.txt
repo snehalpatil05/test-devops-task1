@@ -1,0 +1,63 @@
+GitHub Setup :
+git config --global user.email "snehalptl17@gmail.com"
+git config --global user.name "Snehalpatil05"
+
+Project Setup:
+
+While uploading the project (per project) for the 1st time:
+ 
+> git init
+
+Need to give the address as where to upload the project.
+
+> git remote add origin https://github.com/snehalpatil05/GuessingGame.git
+
+
+Upload Files/Code:
+
+> git add filename
+(if we want to upload all files then use 
+git add ." -> we use this to track the files)
+> git commit -m "message"
+(to tell as last step)
+> git push -u origin master 
+(Uploading our project files from laptop to github platform)
+
+----------------------------------------
+
+Regular code update::::>>>
+> git status
+-----------------------------------
+> git pull
+
+****************Git_COMMANDS***************
+
+1. git pull -- to get the remote repo on to local and ensure both are in sync
+
+2. git add -- to add local data to your remote repo
+
+3. git commit -- to commit the files or folders to be committed to remote repo
+
+4. git status -- this is used to know the current state of the repository
+
+5. git push -- this is used to push the local changes that is being committed to remote repo.
+
+6. git branch -- this is used to know which branch the local repository is on
+
+7. git branch -a --- this is used to know all the available branches
+
+8. git checkout -b <branch_name> -- this is used to checkout to new branch
+
+9. git log -- this is used to show the commit history of a repository
+
+10. git clone --- this is used to copy the repote repository on to local or download remote repo to local.
+
+11. git merge <branch_name>  -- this is used to integrate two branches together
+
+12. git push -u origin <branch_name> -- this is used to push the code to a particular branch with the branch name specified.
+
+13. git branch -d <branch_name> --  this is used to delete a branch locally.
+
+14. git branch origin --delete <branch_name>  -- this is used to delete a particular branch available on remote repository.
+
+***********************************************************

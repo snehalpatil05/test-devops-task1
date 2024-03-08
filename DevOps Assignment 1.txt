@@ -1,0 +1,5 @@
+Please take this as assignment for today session:
+1. Build a custom docker image using base docker image as Ubuntu and create a Apache application.
+2. Deploy this application with 3 replicas on Kubernetes cluster i.e., minikube cluster
+3. No need to expose the application to outside world
+4. Create a document for this setup (it should involve what all steps you followed)

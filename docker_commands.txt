@@ -1,0 +1,58 @@
+*******************DOCKER_COMMANDS**************************************
+
+#command to pull image from registry#
+sudo docker pull <image_name>
+
+#command to run image as a container#
+sudo docker run -d -p <host_port>:<container_port> -t <image_name>
+
+#command to login to a running container#
+sudo docker exec -it <container_id_OR_container_name> /bin/bash
+
+#command to list all the containers#
+sudo docker ps -a
+
+#command to list only running containers#
+sudo docker ps
+
+#command to start a stopped container#
+sudo docker start <container_id_OR_container_name>
+
+#command to stop a running container#
+sudo docker stop <container_id_OR_container_name>
+
+#command to delete a container#
+sudo docker rm <container_id_OR_container_name>
+
+#command to check the logs of a running container#
+sudo docker logs -f <container_id_OR_container_name>o 
+
+#command to use coommit when want to make changes to the image persistent#
+sudo docker commit <container_id_OR_container_name> new_image_name
+
+#command to list all the available images on the docker host#
+sudo docker images
+
+#command to push a image to registry#
+sudo docker push <image_name>
+
+#command to tag a image name to a another image name with new tag#
+sudo docker tag <existing_image_name:tag> <new_image_name:new_tag>
+
+#command to delete a image#
+sudo docker rmi <image_name_OR_image_id> --force
+
+#command to check the resource consumption of a container#
+sudo docker stats <container_id_OR_container_name>
+
+#command to build a new image from a Dockerfile#
+sudo docker build -f Dockerfile -t <image_name> .
+
+#command to login to docker registry#
+sudo docker login 
+
+#command to kill a container#
+sudo docker kill <container_id_OR_container_name>
+
+#command to delete all the stopped containers at once with prune command#
+sudo docker container prune
