@@ -1,2 +1,2 @@
 # test-devops-task1
-Devops task 1 to perform
+Building the docker image Apache2 on ubuntu server
