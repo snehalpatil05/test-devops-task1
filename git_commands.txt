@@ -50,7 +50,7 @@ Regular code update::::>>>
 
 9. git log -- this is used to show the commit history of a repository
 
-10. git clone --- this is used to copy the repote repository on to local or download remote repo to local.
+10. git clone --- this is used to copy the remote repository on to local or download remote repo to local.
 
 11. git merge <branch_name>  -- this is used to integrate two branches together
 
